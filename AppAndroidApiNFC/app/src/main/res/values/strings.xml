@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App strings -->
+    <string name="app_name">Business Care</string>
+    <string name="login_subtitle">Accès sécurisé</string>
+    
+    <!-- Auth strings -->
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">Se connecter</string>
+    
+    <!-- NFC strings -->
+    <string name="nfc_ready">Prêt à lire votre badge</string>
+    <string name="nfc_not_supported">NFC non supporté sur cet appareil</string>
+    <string name="nfc_disabled">NFC désactivé. Veuillez l\'activer dans les paramètres.</string>
+    <string name="nfc_instruction">Approchez votre badge NFC de l\'appareil</string>
+    <string name="nfc_detected">Badge détecté!</string>
+    <string name="nfc_error">Erreur de lecture du badge</string>
+    <string name="nfc_verifying">Vérification du badge...</string>
+    <string name="last_scan">Dernier scan</string>
+    <string name="no_nfc_scanned">Aucun badge scanné</string>
+    <string name="clear">Effacer</string>
+    <string name="access_granted">Accès autorisé</string>
+    <string name="access_denied">Accès refusé</string>
+    
+    <!-- Dashboard strings -->
+    <string name="welcome_message">Bienvenue, %1$s!</string>
+    <string name="last_nfc_login_info">Badge ID: %1$s\nDernier scan: %2$s</string>
+    <string name="logout">Déconnexion</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="profile">Mon profil</string>
+    <string name="nfc_settings">Paramètres NFC</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+    
+    <!-- Strings manquantes mentionnées dans l'erreur -->
+    <string name="upcoming_events">Événements à venir</string>
+    <string name="no_events">Aucun événement prévu</string>
+    <string name="my_appointments">Mes rendez-vous</string>
+    <string name="no_appointments">Aucun rendez-vous</string>
+    <string name="wellbeing_tips">Conseils bien-être</string>
+    <string name="sample_tip">Prenez le temps de vous détendre quelques minutes chaque jour.</string>
+    <string name="refresh">Actualiser</string>
+</resources>

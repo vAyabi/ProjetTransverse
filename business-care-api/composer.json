@@ -1,0 +1,10 @@
+{
+    "name": "vendor/autoload",
+    "description": "initialisation de composer pour api stripe",
+    "type": "library",
+    "require": {
+        "stripe/stripe-php": "^16.5",
+        "setasign/fpdf": "^1.8",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

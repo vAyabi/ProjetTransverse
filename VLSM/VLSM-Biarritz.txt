@@ -1,0 +1,75 @@
+LAN: 10.3.0.0/16
+
+sous réseaux
+
+DMZ: 10.3.1.0/24
+ADMIN: 10.3.99.0/24
+Infrastructure Linux: 10.3.10.0/24
+
+
+FW1-Biarritz:
+
+WAN : 192.168.230.139/24
+LAN : 10.3.0.1/16
+DMZ : 10.3.1.1/24
+ADMIN : 10.3.99.1/24
+BC5 : 172.16.0.5/24
+SYNCFW1 : 10.255.3.1/24
+
+
+FW2-Biarritz:
+
+WAN : 192.168.230.140/24
+LAN : 10.3.0.2/16
+DMZ : 10.3.1.2/24
+ADMIN : 10.3.99.2/24
+BC6 : 172.16.0.6/24
+SYNCFW2 : 10.255.3.2/24
+
+
+CARP
+
+CARP LAN: 10.3.0.3/16
+CARP DMZ: 10.3.1.3/24
+CARP ADMIN: 10.3.99.3/24
+
+
+
+LDAP 
+
+IP: 10.3.10.10/24
+Masque: 255.255.255.0
+Passerelle: 10.3.0.3
+DNS: 10.3.10.30 
+
+
+DHCP 
+
+IP: 10.3.10.20/24
+Masque: 255.255.255.0
+Passerelle: 10.3.0.3
+DNS: 10.3.10.30 
+
+
+DNS
+
+IP: 10.3.10.30/24
+Masque: 255.255.255.0
+Passerelle: 10.3.0.3
+
+
+Files 
+
+IP: 10.3.10.40/24
+Masque: 255.255.255.0
+Passerelle: 10.3.0.3
+DNS: 10.3.10.30 
+
+
+
+SW-Biarritz 
+
+IP: 10.3.99.10/24
+Masque: 255.255.255.0
+Passerelle: 10.3.99.3
+DNS: 10.3.10.30

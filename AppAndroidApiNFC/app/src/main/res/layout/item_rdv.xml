@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/rdvDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="01/01/2025 15:30"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/rdvTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type: Visioconférence"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/rdvPrestatairTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avec: Dr. Nom du prestataire"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/rdvStatutTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statut: Programmé"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
